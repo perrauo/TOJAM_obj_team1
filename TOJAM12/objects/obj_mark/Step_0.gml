@@ -53,7 +53,7 @@ switch (mode)
 		{
 			with (my_house)
 			{
-				ds_queue_enqueue(occupants,global.cur_step+180);
+				ds_queue_enqueue(occupants,global.cur_step+300);
 			}
 			instance_destroy();
 		}
@@ -64,7 +64,7 @@ switch (mode)
 	
 	case markMode.angry:
 	{
-		if (point_distance(x,y,obj_player.x,obj_player.y) > 64)
+		if (point_distance(x,y,obj_player.x,obj_player.y) > 32)
 			my_spd = 3;
 		else
 		{

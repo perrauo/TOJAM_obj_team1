@@ -12,9 +12,9 @@ var count = 0;
 while (count < num_houses)
 {
 	var xx = irandom(room_width-64);
-	var yy = irandom(room_height-16);
+	var yy = irandom(room_height-64);
 	
-	if (!collision_rectangle(xx,yy,xx+64,yy+16,obj_house,false,true))
+	if (!collision_rectangle(xx,yy,xx+64,yy+64,obj_house,false,true))
 	{
 		instance_create_depth(xx,yy,-yy,obj_house);
 		count++;
