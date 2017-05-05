@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "1ddfd024-4a3c-4ac2-850c-61959ccf2c3b",
+            "Value": {
+                "id": "b5d69466-6ca9-4cea-b2c4-6562d8e01e61",
+                "resourcePath": "views\\1ddfd024-4a3c-4ac2-850c-61959ccf2c3b.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "26bd1f39-cafa-4d45-b2c3-26f4d46d9d56",
             "Value": {
                 "id": "97af9ee4-bb0c-4bf7-8f22-0de2a0de27e6",
@@ -116,6 +124,14 @@
                 "id": "855028e6-b1ba-4b0b-a9bd-e89940d6281c",
                 "resourcePath": "views\\6733c0d1-0fea-4e17-81dd-e4629e4da42c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6a594875-00f0-438f-8e2a-fb30d39dc630",
+            "Value": {
+                "id": "424a2e38-4abb-4b3a-be24-cfaeefc1fca3",
+                "resourcePath": "sprites\\spr_player_idle_right\\spr_player_idle_right.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -207,6 +223,14 @@
             }
         },
         {
+            "Key": "bcadc5bc-49e4-4a42-b788-706be1806b2e",
+            "Value": {
+                "id": "a90dd766-6926-401e-b33c-eea9dffcee4d",
+                "resourcePath": "sprites\\spr_player_idle_left\\spr_player_idle_left.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c6a4a293-d51e-4df0-8d9f-3ec88846abfa",
             "Value": {
                 "id": "154e8567-ed2e-44c1-b3cb-f82965050485",
@@ -228,6 +252,14 @@
                 "id": "d57cb250-24b3-459c-be83-e2e425a7545b",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d700a746-8075-4931-aae8-45fdb03baaeb",
+            "Value": {
+                "id": "79539728-e7d0-499d-8d18-bb341403b8dd",
+                "resourcePath": "sprites\\spr_player_idle_back\\spr_player_idle_back.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
