@@ -66,7 +66,7 @@
             "Key": "1633244f-f607-4eec-a2e7-8991f1f91b8e",
             "Value": {
                 "id": "aeea5798-8c67-4d07-8008-c2dafb97f1ef",
-                "resourcePath": "sprites\\spr_player2\\spr_player2.yy",
+                "resourcePath": "sprites\\spr_player_idle_front\\spr_player_idle_front.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -143,10 +143,26 @@
             }
         },
         {
+            "Key": "6b2075ad-6dac-4efd-9b89-e90dd6ffc386",
+            "Value": {
+                "id": "8619095f-0950-4051-bd0c-212179006c69",
+                "resourcePath": "sprites\\spr_kiosk\\spr_kiosk.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6be6dc34-ae74-4794-ad25-09bc342f0f31",
             "Value": {
                 "id": "37b89557-7be2-41bc-865c-c434471dc245",
                 "resourcePath": "views\\6be6dc34-ae74-4794-ad25-09bc342f0f31.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7863195c-8ca8-4f0b-8aa5-c32dfded6694",
+            "Value": {
+                "id": "7cd142df-89fb-40ed-b63c-a30b7b4d8664",
+                "resourcePath": "views\\7863195c-8ca8-4f0b-8aa5-c32dfded6694.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -218,7 +234,7 @@
             "Key": "b341114b-0edd-4a13-80ed-87dddd96dc14",
             "Value": {
                 "id": "24b85100-824f-4700-a413-a720baadb25f",
-                "resourcePath": "sprites\\spr_player\\spr_player.yy",
+                "resourcePath": "sprites\\spr_villain\\spr_villain.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -252,6 +268,14 @@
                 "id": "182878ec-2d78-4457-bc52-1429f283abd4",
                 "resourcePath": "views\\d448d221-ce6c-4449-a486-fa65716d66d3.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "eb122a4c-9b5c-4135-a946-a38795985d3b",
+            "Value": {
+                "id": "e8686557-f518-436a-aa4b-d9f69e5599b3",
+                "resourcePath": "objects\\obj_kiosk\\obj_kiosk.yy",
+                "resourceType": "GMObject"
             }
         },
         {

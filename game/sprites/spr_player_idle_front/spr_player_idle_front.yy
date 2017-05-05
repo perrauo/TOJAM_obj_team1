@@ -2,7 +2,7 @@
     "id": "1633244f-f607-4eec-a2e7-8991f1f91b8e",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_player2",
+    "name": "spr_player_idle_front",
     "For3D": false,
     "HTile": false,
     "VTile": false,
@@ -75,8 +75,8 @@
             "visible": true
         }
     ],
-    "origin": 0,
-    "playbackSpeed": 15,
+    "origin": 7,
+    "playbackSpeed": 5,
     "playbackSpeedType": 0,
     "sepmasks": false,
     "swatchColours": null,
@@ -84,6 +84,6 @@
     "textureGroup": 0,
     "type": 0,
     "width": 32,
-    "xorig": 0,
-    "yorig": 0
+    "xorig": 16,
+    "yorig": 47
 }
