@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "3162ea4b-c4d2-4139-916f-f6759637ef1e",
+            "Value": {
+                "id": "48489850-0653-4af2-aa3d-8ac52868b2e5",
+                "resourcePath": "objects\\obj_town\\obj_town.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "320b88b5-551e-412a-9533-66215d5ab84a",
             "Value": {
                 "id": "fc32811f-9a48-4b7e-aa05-6e6af257a800",
