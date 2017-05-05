@@ -12,7 +12,7 @@ var count = 0;
 
 while (count < num_houses)
 {
-	var xx = irandom(room_width-96) div 96 * 96;
+	var xx = irandom(room_width-48) div 48 * 48;
 	var yy = irandom(room_height-64) div 64 * 64;
 	
 	if (!collision_rectangle(xx,yy,xx+96,yy+64,obj_house,false,true))

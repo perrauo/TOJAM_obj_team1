@@ -4,15 +4,15 @@ switch (mode)
 {
 	case 0:
 	case 1:
-		draw_sprite(sprite_index,0,x,y);
+		draw_sprite(sprite_index,image_index,x,y);
 		break;
 		
 	case 2:
-		draw_sprite_ext(sprite_index,0,x,y,1,1,0,c_lime,1);
+		draw_sprite_ext(sprite_index,image_index,x,y,1,1,0,$80FF80,1);
 		break;
 	
 	case 3:
-		draw_sprite_ext(sprite_index,0,x,y,1,1,0,c_red,1);
+		draw_sprite_ext(sprite_index,image_index,x,y,1,1,0,$8080FF,1);
 		break;
 }
 

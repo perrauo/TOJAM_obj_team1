@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "0c540e8e-94b2-46c5-94c6-c4f47bb863be",
+            "Value": {
+                "id": "9096948a-d96c-4b17-a1f4-c089df725472",
+                "resourcePath": "objects\\obj_ctrl_layers\\obj_ctrl_layers.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0c62ce29-f1aa-43fd-962c-9d78857d206f",
             "Value": {
                 "id": "4b13415c-961a-490d-9a35-275c1376f418",
@@ -100,14 +108,6 @@
                 "id": "14b70555-c60c-44a7-8e38-3f74ca815469",
                 "resourcePath": "views\\2d406651-58d0-4976-88e0-5f1cfaa17c49.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "2d47f019-10cd-459c-8e9d-778909f5b2c4",
-            "Value": {
-                "id": "c6d72dca-20ac-4262-a385-42b913ee48bd",
-                "resourcePath": "sprites\\spr_mark\\spr_mark.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -255,11 +255,11 @@
             }
         },
         {
-            "Key": "9e584230-f85b-4784-92ae-c1bd088ea827",
+            "Key": "9f9e188e-3925-436f-92bc-426e9b4e780e",
             "Value": {
-                "id": "acaa22a6-e198-4855-a104-a330127e1c7c",
-                "resourcePath": "sprites\\sprite_13\\sprite_13.yy",
-                "resourceType": "GMSprite"
+                "id": "0ca7dd94-55c0-437f-a84a-dfc4a147662c",
+                "resourcePath": "objects\\obj_kiosk_UI\\obj_kiosk_UI.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -311,10 +311,10 @@
             }
         },
         {
-            "Key": "b341114b-0edd-4a13-80ed-87dddd96dc14",
+            "Key": "b1c3f63a-85fb-456d-a766-d3a5b937192e",
             "Value": {
-                "id": "8b699d4e-2e2c-4fca-8b95-ce7f4bafae98",
-                "resourcePath": "sprites\\spr_villain\\spr_villain.yy",
+                "id": "59622baf-4272-4984-84be-3d2b114f51bd",
+                "resourcePath": "sprites\\spr_mark_idle_front\\spr_mark_idle_front.yy",
                 "resourceType": "GMSprite"
             }
         },
