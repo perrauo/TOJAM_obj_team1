@@ -90,7 +90,7 @@
             "Key": "37008732-8497-46c7-98ab-a8b151309256",
             "Value": {
                 "id": "5111ce86-2397-45b4-b0b8-8e478494600d",
-                "resourcePath": "scripts\\init_enums\\init_enums.yy",
+                "resourcePath": "scripts\\scr_init_enums\\scr_init_enums.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -108,6 +108,14 @@
                 "id": "1980c7bc-63af-436b-837a-574f07f7f0ce",
                 "resourcePath": "views\\431ca2ee-9e89-45f6-bc79-0fc069a926ea.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "64fe5aaf-beb8-408b-8f85-45662e82c47c",
+            "Value": {
+                "id": "e4bd3af2-9c7d-4d60-9038-5882b538263d",
+                "resourcePath": "scripts\\scr_test\\scr_test.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -232,7 +240,8 @@
         }
     ],
     "script_order": [
-        "37008732-8497-46c7-98ab-a8b151309256"
+        "37008732-8497-46c7-98ab-a8b151309256",
+        "64fe5aaf-beb8-408b-8f85-45662e82c47c"
     ],
     "tutorial": ""
 }
