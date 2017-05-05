@@ -2,9 +2,9 @@
 // You can write your code in this editor
 
 //detect mouse
-for(i = bbox_top; i<y+bbox_bottom; i++)
+for(i = bbox_top; i<bbox_bottom; i++)
 {
-	for(j = bbox_left; j<x+bbox_right; j++)
+	for(j = bbox_left; j<bbox_right; j++)
 	{
 		if(mouse_x==j && mouse_y ==i)
 		{

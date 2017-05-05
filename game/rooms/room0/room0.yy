@@ -19,7 +19,8 @@
         "cca1eec2-489f-429c-bf81-d85db6f25301",
         "9dd09d7c-5844-4e5e-acb9-585b627e9037",
         "c3874dfa-827d-43c3-aa81-59dc5d62c33f",
-        "884a20e8-9406-401d-8429-78b7ad557215"
+        "884a20e8-9406-401d-8429-78b7ad557215",
+        "c62c3592-dfad-41c9-ace7-bd16caeefcfe"
     ],
     "layers": [
         {
@@ -305,6 +306,30 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_20844977",
                     "objId": "7ad5aebb-645a-41b0-a679-11eedcef7abf",
+                    "rotation": 0,
+                    "scaleX": 1,
+                    "scaleY": 1
+                },
+                {
+                    "id": "c62c3592-dfad-41c9-ace7-bd16caeefcfe",
+                    "modelName": "GMRInstance",
+                    "mvc": "1.0",
+                    "ignore": false,
+                    "inheritItemSettings": false,
+                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
+                    "m_serialiseFrozen": false,
+                    "name": "inst_49052C3D",
+                    "x": 672,
+                    "y": 448,
+                    "IsDnD": false,
+                    "colour": {
+                        "Value": 4294967295
+                    },
+                    "creationCodeFile": "",
+                    "creationCodeType": "",
+                    "inheritCode": false,
+                    "name_with_no_file_rename": "inst_49052C3D",
+                    "objId": "eb122a4c-9b5c-4135-a946-a38795985d3b",
                     "rotation": 0,
                     "scaleX": 1,
                     "scaleY": 1
