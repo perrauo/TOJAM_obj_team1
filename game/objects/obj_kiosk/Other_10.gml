@@ -10,11 +10,11 @@ if(!pulse_over)
 		pulse = 0;
 	}
 	
-	scale = 1+sin(pulse);
+	scale = 1+sin(pulse)*pulse_size;
 	
 	image_xscale = scale; 
 	image_yscale = scale;
-	//hello
+	
 	
 	pulse += .5;
 	
