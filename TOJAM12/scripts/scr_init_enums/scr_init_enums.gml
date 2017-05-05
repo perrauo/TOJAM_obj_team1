@@ -1,6 +1,6 @@
 /// @desc Init enums
 
-enum actionKey
+enum markMode
 {
-	up, down, left, right
-} 
+	idle, interested, sold, angry
+}

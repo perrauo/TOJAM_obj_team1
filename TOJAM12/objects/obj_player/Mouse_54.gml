@@ -7,7 +7,7 @@ if (is_selling)
 	with (obj_mark)
 	{
 		if (mode < 2)
-			mode = 0;
+			mode = markMode.idle;
 	}
 }
 
@@ -16,5 +16,5 @@ else
 	is_selling = true;
 	instance_create_depth(x,y,-y,obj_kiosk);
 	with (obj_mark)
-		mode = 1;
+		mode = markMode.interested;
 }

@@ -3,13 +3,13 @@
 
 switch (mode)
 {
-	case 0:
-	case 2:
+	case markMode.idle:
+	case markMode.sold:
 		direction += random_range(-5,5);
 		my_spd = 1;
 		break;
 		
-	case 1:
+	case markMode.interested:
 	{
 		if (point_distance(x,y,obj_player.x,obj_player.y) > 64)
 			my_spd = 2;
@@ -31,7 +31,7 @@ switch (mode)
 		break;
 	}
 	
-	case 3:
+	case markMode.angry:
 	{
 		if (point_distance(x,y,obj_player.x,obj_player.y) > 64)
 			my_spd = 2;
