@@ -5,7 +5,10 @@ if (is_selling)
 	is_selling = false;
 	instance_destroy(obj_kiosk);
 	with (obj_mark)
-		mode = 0;
+	{
+		if (mode < 2)
+			mode = 0;
+	}
 }
 
 else

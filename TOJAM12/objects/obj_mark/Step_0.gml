@@ -23,7 +23,30 @@ switch (mode)
 				mode = 2;
 				buy_timer = 0;
 				direction = point_direction(obj_player.x,obj_player.y,x,y);
+				alarm[0] = 300;
 			}
+		}
+		direction = point_direction(x,y,obj_player.x,obj_player.y);
+
+		break;
+	}
+	
+	case 3:
+	{
+		if (point_distance(x,y,obj_player.x,obj_player.y) > 64)
+			my_spd = 2;
+		else
+		{
+			my_spd = 0;
+			/*buy_timer++;
+			
+			if (buy_timer > max_buy_time)
+			{
+				mode = 2;
+				buy_timer = 0;
+				direction = point_direction(obj_player.x,obj_player.y,x,y);
+				alarm[0] = 300;
+			}*/
 		}
 		direction = point_direction(x,y,obj_player.x,obj_player.y);
 
