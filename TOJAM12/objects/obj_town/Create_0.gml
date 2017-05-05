@@ -6,7 +6,7 @@ global.town_grid = mp_grid_create(0,0,room_width div 32 + 1, room_height div 16 
 global.cur_step = 0;
 
 num_houses = 20;
-num_people = 20;
+num_people = 50;
 
 var count = 0;
 

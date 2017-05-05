@@ -1,13 +1,41 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-//if (mode == markMode.idle && )
+if (instance_exists(obj_kiosk))
+{
+	if (mode == markMode.idle && point_distance(x,y,obj_kiosk.x,obj_kiosk.y) < 256)
+	{
+		//alarm[0] = 180;
+		tar_x = obj_player.x;
+		tar_y = obj_player.y;
+		mp_grid_path(global.town_grid,my_path,x,y,tar_x,tar_y,true);
+		path_point_index = 0;
+		local_tar_x = path_get_point_x(my_path,path_point_index);
+		local_tar_y = path_get_point_y(my_path,path_point_index);
+		mode = markMode.interested;
+	}
+
+	else if (mode == markMode.interested &&	point_distance(x,y,obj_kiosk.x,obj_kiosk.y) > 256)
+	{
+		alarm[0] = -1;
+		mode = markMode.idle;
+	}
+}
+
+else
+{
+	if (mode == markMode.interested)
+	{
+		alarm[0] = -1;
+		mode = markMode.idle;
+	}	
+}
 
 switch (mode)
 {
 	case markMode.idle:
 		direction += random_range(-5,5);
-		my_spd = 1;
+		my_spd = .5;
 		buy_timer = max(0,buy_timer-1);
 		break;
 		

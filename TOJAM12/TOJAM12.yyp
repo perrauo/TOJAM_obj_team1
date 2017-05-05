@@ -399,6 +399,14 @@
             }
         },
         {
+            "Key": "ee21924f-aa7d-454d-94c1-9f4475f3d8e4",
+            "Value": {
+                "id": "e8047671-92fc-4e59-83d7-b9677643ba6d",
+                "resourcePath": "sprites\\spr_shack\\spr_shack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f16f502a-f5bb-4c52-b9f2-658bb3e6ac66",
             "Value": {
                 "id": "4badb485-220f-4b16-bc91-0e02d920a8c7",

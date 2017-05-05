@@ -65,11 +65,6 @@ switch tf_selected
 	//update tb width based on text size
 	name_width = string_length(obj_kiosk.prod_name)* 10;
 	
-		
-	
-	break;
-	
-	
 	break;
 	
 	case SELECTED.PRICE:
