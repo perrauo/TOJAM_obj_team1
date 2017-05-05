@@ -4,7 +4,6 @@
 switch (mode)
 {
 	case markMode.idle:
-	case markMode.sold:
 		direction += random_range(-5,5);
 		my_spd = 1;
 		break;
@@ -23,11 +22,31 @@ switch (mode)
 				mode = 2;
 				buy_timer = 0;
 				direction = point_direction(obj_player.x,obj_player.y,x,y);
-				alarm[0] = 300;
+				
+				var num_houses = instance_number(obj_house);
+				var n = irandom(num_houses-1);
+				var home = instance_find(obj_house,n);
+				
+				tar_x = home.x+32;
+				tar_y = home.y+32;
 			}
 		}
 		direction = point_direction(x,y,obj_player.x,obj_player.y);
 
+		break;
+	}
+	
+	case markMode.sold:
+	{
+		direction = point_direction(x,y,tar_x,tar_y);
+		my_spd = 1;
+		
+		if (point_distance(x,y,tar_x,tar_y) < my_spd)
+		{
+			x = tar_x;
+			y = tar_y;
+			mode = markMode.angry;
+		}
 		break;
 	}
 	
