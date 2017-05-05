@@ -1,4 +1,4 @@
-/// @description move wih mouse
+/// @description move with mouse
 
 if (point_distance(x,y,mouse_x,mouse_y) < my_spd)
 {
