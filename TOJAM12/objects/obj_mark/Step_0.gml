@@ -16,7 +16,14 @@ switch (mode)
 		if (point_distance(x,y,obj_player.x,obj_player.y) > 64)
 		{
 			my_spd = 2;
-			mp_potential_step_object(obj_player.x,obj_player.y,my_spd,obj_house);
+			
+			if (point_distance(x,y,local_tar_x,local_tar_y) < 16)
+			{
+				path_point_index++;
+				local_tar_x = path_get_point_x(my_path,path_point_index);
+				local_tar_y = path_get_point_y(my_path,path_point_index);
+			}
+			mp_potential_step_object(local_tar_x,local_tar_y,my_spd,obj_house);
 		}
 		
 		else
@@ -26,17 +33,22 @@ switch (mode)
 			
 			if (buy_timer > max_buy_time)
 			{
-				mode = 2;
+				mode = markMode.sold;
 				buy_timer = 0;
-				direction = point_direction(obj_player.x,obj_player.y,x,y);
+				//direction = point_direction(obj_player.x,obj_player.y,x,y);
 				
 				var num_houses = instance_number(obj_house);
 				var n = irandom(num_houses-1);
 				var home = instance_find(obj_house,n);
 				
+				alarm[0] = -1;
 				my_house = home;
 				tar_x = home.x+32;
 				tar_y = home.y+32;
+				mp_grid_path(global.town_grid,my_path,x,y,tar_x,tar_y,true);
+				path_point_index = 0;
+				local_tar_x = path_get_point_x(my_path,path_point_index);
+				local_tar_y = path_get_point_y(my_path,path_point_index);
 			}
 		}
 		//direction = point_direction(x,y,obj_player.x,obj_player.y);
@@ -58,7 +70,14 @@ switch (mode)
 			instance_destroy();
 		}
 		
-		mp_potential_step_object(tar_x,tar_y,my_spd,obj_house);
+		else if (point_distance(x,y,local_tar_x,local_tar_y) < 16)
+		{
+			path_point_index++;
+			local_tar_x = path_get_point_x(my_path,path_point_index);
+			local_tar_y = path_get_point_y(my_path,path_point_index);
+		}
+		
+		mp_potential_step_object(local_tar_x,local_tar_y,my_spd,obj_house);
 		break;
 	}
 	
@@ -69,15 +88,6 @@ switch (mode)
 		else
 		{
 			my_spd = 0;
-			/*buy_timer++;
-			
-			if (buy_timer > max_buy_time)
-			{
-				mode = 2;
-				buy_timer = 0;
-				direction = point_direction(obj_player.x,obj_player.y,x,y);
-				alarm[0] = 300;
-			}*/
 		}
 		direction = point_direction(x,y,obj_player.x,obj_player.y);
 

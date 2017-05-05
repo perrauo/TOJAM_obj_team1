@@ -1,20 +1,21 @@
 /// @description create town
 
 randomize();
-
+mp_potential_settings(180,5,4,true);
+global.town_grid = mp_grid_create(0,0,room_width div 32 + 1, room_height div 16 + 1,32,16);
 global.cur_step = 0;
 
-num_houses = 10;
+num_houses = 20;
 num_people = 20;
 
 var count = 0;
 
 while (count < num_houses)
 {
-	var xx = irandom(room_width-64);
-	var yy = irandom(room_height-64);
+	var xx = irandom(room_width-96) div 96 * 96;
+	var yy = irandom(room_height-64) div 64 * 64;
 	
-	if (!collision_rectangle(xx,yy,xx+64,yy+64,obj_house,false,true))
+	if (!collision_rectangle(xx,yy,xx+96,yy+64,obj_house,false,true))
 	{
 		instance_create_depth(xx,yy,-yy,obj_house);
 		count++;
@@ -35,3 +36,5 @@ while (count < num_people)
 		count++;
 	}
 }
+
+mp_grid_add_instances(global.town_grid,obj_house,false);
