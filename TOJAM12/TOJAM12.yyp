@@ -287,6 +287,14 @@
             }
         },
         {
+            "Key": "881e162e-cf52-468e-90b4-3a31c05a95ea",
+            "Value": {
+                "id": "94e6d189-6b6d-46c7-a6af-fbb115b07c00",
+                "resourcePath": "objects\\obj_MCP\\obj_MCP.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "93156eab-92ac-4846-8a07-a6b9f5c6afea",
             "Value": {
                 "id": "5d78abd0-8c64-4718-bf02-c8e4b4f187ad",

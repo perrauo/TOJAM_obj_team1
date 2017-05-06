@@ -63,6 +63,7 @@ switch (mode)
 			{
 				mode = markMode.sold;
 				buy_timer = 0;
+				global.money += 0.1;
 				//direction = point_direction(obj_player.x,obj_player.y,x,y);
 				
 				var num_houses = instance_number(obj_house);
@@ -123,7 +124,7 @@ switch (mode)
 	}
 }
 
-if (my_spd <> 0 && mode <> markMode.interested && mode <> markMode.sold)
+if (my_spd <> 0 && mode <> markMode.emerged && mode <> markMode.interested && mode <> markMode.sold)
 {
 	var dx = lengthdir_x(my_spd,direction);
 	var dy = lengthdir_y(my_spd,direction);

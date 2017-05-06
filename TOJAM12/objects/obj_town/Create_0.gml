@@ -3,7 +3,6 @@
 randomize();
 mp_potential_settings(180,5,4,true);
 global.town_grid = mp_grid_create(0,0,room_width div 32 + 1, room_height div 16 + 1,32,16);
-global.cur_step = 0;
 
 num_houses = 20;
 num_people = 50;
@@ -13,7 +12,7 @@ var count = 0;
 while (count < num_houses)
 {
 	var xx = irandom(room_width-48) div 48 * 48;
-	var yy = irandom(room_height-64) div 64 * 64;
+	var yy = irandom_range(96,room_height-64) div 64 * 64;
 	
 	if (!collision_rectangle(xx,yy,xx+96,yy+64,obj_house,false,true))
 	{

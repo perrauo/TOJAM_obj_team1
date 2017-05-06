@@ -2,16 +2,17 @@
 
 switch (mode)
 {
-	case 0:
-	case 1:
+	case markMode.idle:
+	case markMode.interested:
 		draw_sprite(sprite_index,image_index,x,y);
 		break;
 		
-	case 2:
+	case markMode.sold:
 		draw_sprite_ext(sprite_index,image_index,x,y,1,1,0,$80FF80,1);
 		break;
 	
-	case 3:
+	case markMode.emerged:
+	case markMode.angry:
 		draw_sprite_ext(sprite_index,image_index,x,y,1,1,0,$8080FF,1);
 		break;
 }

@@ -2,29 +2,29 @@
 
 var facing = ((direction + 45 + 360) div 90) mod 4;
 
-	switch (facing)
+switch (facing)
+{
+	case 0:
 	{
-		case 0:
-		{
-			sprite_index = spr_mark_walk_right;
-			break;
-		}
+		sprite_index = spr_mark_walk_right;
+		break;
+	}
 	
-		case 1:
-		{
-			sprite_index = spr_mark_walk_back;
-			break;
-		}
+	case 1:
+	{
+		sprite_index = spr_mark_walk_back;
+		break;
+	}
 	
-		case 2:
-		{
-			sprite_index = spr_mark_walk_left;
-			break;
-		}
+	case 2:
+	{
+		sprite_index = spr_mark_walk_left;
+		break;
+	}
 	
-		case 3:
-		{
-			sprite_index = spr_mark_walk_front;
-			break;
-		}	
-	} 
+	case 3:
+	{
+		sprite_index = spr_mark_walk_front;
+		break;
+	}	
+} 

@@ -2,7 +2,7 @@
 
 enum markMode
 {
-	idle, interested, sold, angry
+	idle, interested, sold, emerged, angry
 }
 
 enum playerMode
