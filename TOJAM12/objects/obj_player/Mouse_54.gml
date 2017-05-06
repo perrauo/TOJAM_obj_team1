@@ -1,13 +1,14 @@
 /// @description Insert description here
 
-if (is_selling)
+if (mode == playerMode.selling)
 {
-	is_selling = false;
+	mode = playerMode.packup;
 	instance_destroy(obj_kiosk);
+	alarm[1] = 90;
 }
 
-else
+else if (mode == playerMode.idle)
 {
-	is_selling = true;
-	instance_create_depth(x,y,-y,obj_kiosk);
+	mode = playerMode.setup;
+	alarm[0] = 90;
 }

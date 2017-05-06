@@ -1,6 +1,6 @@
 /// @description move with mouse
 
-if (!is_selling)
+if (mode == playerMode.idle)
 {
 	if (point_distance(x,y,mouse_x,mouse_y) < my_spd)
 	{
