@@ -314,7 +314,7 @@
             "Key": "66dfeaeb-d8c3-493c-bb56-32ad2d2c9548",
             "Value": {
                 "id": "20051c1f-473c-42eb-b9c1-19370c47297a",
-                "resourcePath": "objects\\obj_map_town\\obj_map_town.yy",
+                "resourcePath": "objects\\obj_map_town2\\obj_map_town2.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -371,6 +371,14 @@
             "Value": {
                 "id": "5408a575-b4c3-4002-97a9-9d56f9706e9c",
                 "resourcePath": "objects\\obj_mark\\obj_mark.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7d6f3bf7-62b3-470d-ab40-8704a51ae311",
+            "Value": {
+                "id": "f6385f5a-e0c8-43c4-bcbc-5ab383b70932",
+                "resourcePath": "objects\\obj_map_town\\obj_map_town.yy",
                 "resourceType": "GMObject"
             }
         },
