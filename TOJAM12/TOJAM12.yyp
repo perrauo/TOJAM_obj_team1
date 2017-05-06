@@ -138,7 +138,7 @@
             "Key": "2e2079f7-5cd0-4523-97a8-f6e4ccb69033",
             "Value": {
                 "id": "fc7f3c47-9837-4acf-ad7f-d87ac7d6fa98",
-                "resourcePath": "sprites\\sprite_32\\sprite_32.yy",
+                "resourcePath": "sprites\\spr_ground_tiles\\spr_ground_tiles.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -148,6 +148,14 @@
                 "id": "3724a6ab-478f-4f98-aba5-d9a325f44b97",
                 "resourcePath": "objects\\obj_oh_noez\\obj_oh_noez.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "309f1e1b-7be2-4e9b-9b5d-e900b2c60052",
+            "Value": {
+                "id": "80a9a3a8-15f2-416c-a166-e4b0cc9ed423",
+                "resourcePath": "tilesets\\ts_ground\\ts_ground.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
