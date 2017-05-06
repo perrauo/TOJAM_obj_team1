@@ -354,7 +354,7 @@
             "Key": "9795371a-31ce-4842-933b-bb7224b76e4b",
             "Value": {
                 "id": "6ea26784-e67c-4b10-b071-4b243b2eab02",
-                "resourcePath": "sprites\\spr_mark_walk_tonic_back_1\\spr_mark_walk_tonic_back_1.yy",
+                "resourcePath": "sprites\\spr_mark_walk_angry_back\\spr_mark_walk_angry_back.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -386,7 +386,7 @@
             "Key": "a3569da6-3cfa-4a5e-a933-438f0a8b1f03",
             "Value": {
                 "id": "24689a49-c3ec-4c31-90b2-30df037c5392",
-                "resourcePath": "sprites\\spr_mark_walk_tonic_front_1\\spr_mark_walk_tonic_front_1.yy",
+                "resourcePath": "sprites\\spr_mark_walk_angry_front\\spr_mark_walk_angry_front.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -498,7 +498,7 @@
             "Key": "c49df294-890c-4109-8a95-298a2a0b6455",
             "Value": {
                 "id": "f6c7cfc7-5170-4554-b9f2-323240fd60c8",
-                "resourcePath": "sprites\\spr_mark_walk_tonic_left_1\\spr_mark_walk_tonic_left_1.yy",
+                "resourcePath": "sprites\\spr_mark_walk_angry_left\\spr_mark_walk_angry_left.yy",
                 "resourceType": "GMSprite"
             }
         },
