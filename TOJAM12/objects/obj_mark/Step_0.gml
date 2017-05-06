@@ -94,7 +94,7 @@ switch (mode)
 		{
 			with (my_house)
 			{
-				ds_queue_enqueue(occupants,global.cur_step+300);
+				ds_queue_enqueue(occupants,global.cur_step+420);
 			}
 			instance_destroy();
 		}
@@ -112,14 +112,26 @@ switch (mode)
 	
 	case markMode.angry:
 	{
-		if (point_distance(x,y,obj_player.x,obj_player.y) > 32)
-			my_spd = 3;
-		else
+		var dis = point_distance(x,y,obj_player.x,obj_player.y);
+		
+		if (dis < 32)
 		{
 			my_spd = 0;
+			direction = point_direction(x,y,obj_player.x,obj_player.y);
 		}
-		direction = point_direction(x,y,obj_player.x,obj_player.y);
+		
+		else if (dis < 256)
+		{
+			my_spd = 3;
+			direction = point_direction(x,y,obj_player.x,obj_player.y);
+		}
 
+		else
+		{
+			direction += random_range(-5,5);
+			my_spd = 1;
+		}
+		
 		break;
 	}
 }
