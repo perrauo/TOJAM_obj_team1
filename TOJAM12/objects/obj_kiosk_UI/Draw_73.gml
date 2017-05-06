@@ -10,7 +10,7 @@
 w = c_white;
 b = c_black;
 
-
+draw_set_font(fnt_small);
 draw_sprite_ext(sprite_index, 0,x,y,1,1,0,c_white,.5);
 
 //drawing prod name

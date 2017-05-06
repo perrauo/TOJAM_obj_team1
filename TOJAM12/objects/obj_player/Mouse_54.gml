@@ -4,11 +4,11 @@ if (mode == playerMode.selling)
 {
 	mode = playerMode.packup;
 	instance_destroy(obj_kiosk);
-	alarm[1] = 51;
+	alarm[1] = 45;
 }
 
 else if (mode == playerMode.idle)
 {
 	mode = playerMode.setup;
-	alarm[0] = 51;
+	alarm[0] = 45;
 }

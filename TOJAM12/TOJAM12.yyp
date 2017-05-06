@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "2530f919-65cc-421b-a24c-b0fc5cf15dc1",
+            "Value": {
+                "id": "75a2664b-fd6b-4f5e-9b73-16ffb9067c01",
+                "resourcePath": "sprites\\spr_mark_walk_front\\spr_mark_walk_front.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "26bd1f39-cafa-4d45-b2c3-26f4d46d9d56",
             "Value": {
                 "id": "97af9ee4-bb0c-4bf7-8f22-0de2a0de27e6",
@@ -343,6 +351,14 @@
             }
         },
         {
+            "Key": "a7f55498-d088-44f4-a37f-e1f949d91909",
+            "Value": {
+                "id": "8902a9e2-cb6c-4ca1-a90b-2481ef853618",
+                "resourcePath": "sprites\\spr_mark_walk_back\\spr_mark_walk_back.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "53710cd0-b016-4144-bbcb-b17afcc7c507",
@@ -356,6 +372,14 @@
                 "id": "4f61ba8b-e5a4-4c51-95cc-5973a57ff1a0",
                 "resourcePath": "views\\ae47a263-7207-4fcb-85b3-f8021e834610.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ae81629b-0b68-4d20-99a9-5ecac6bee700",
+            "Value": {
+                "id": "97439dba-559a-4629-a88f-43b14db0c01d",
+                "resourcePath": "sprites\\spr_mark_walk_left\\spr_mark_walk_left.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -420,6 +444,22 @@
                 "id": "d57cb250-24b3-459c-be83-e2e425a7545b",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d003eb1f-453e-4ae3-a34c-51f2a230f97e",
+            "Value": {
+                "id": "f3b5d044-0ad2-4ed5-9767-b563c8195c16",
+                "resourcePath": "fonts\\fnt_small\\fnt_small.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "d03b5b90-fca4-4816-b75c-392127979baf",
+            "Value": {
+                "id": "b181c349-c6b0-48bf-bff6-30e191e72373",
+                "resourcePath": "sprites\\spr_mark_walk_right\\spr_mark_walk_right.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
