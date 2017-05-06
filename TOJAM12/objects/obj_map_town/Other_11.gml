@@ -14,7 +14,7 @@ if(mouse_check_button_pressed(mb_any))
 		{
 			if (dir == 1)
 			{
-				dest_city = other.my_path_index;
+				global.dest_city = other.my_path_index;
 				can_command = false;
 				cur_path = (cur_path+1+global.numb_towns) mod global.numb_towns;
 				path_start(obj_ctrl_map.track_path[cur_path],4,path_action_stop,true);

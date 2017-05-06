@@ -31,14 +31,6 @@
     },
     "resources": [
         {
-            "Key": "0b96c79c-9222-4564-85c6-6931785be4f7",
-            "Value": {
-                "id": "0e7c4678-c35a-4f9c-91a1-7de647671931",
-                "resourcePath": "objects\\obj_map_train2\\obj_map_train2.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "0c540e8e-94b2-46c5-94c6-c4f47bb863be",
             "Value": {
                 "id": "9096948a-d96c-4b17-a1f4-c089df725472",
@@ -218,7 +210,7 @@
             "Key": "3bdea056-e5a1-43a9-af36-0298585cccbf",
             "Value": {
                 "id": "81473602-3800-43d6-a7f8-2e7c442f3211",
-                "resourcePath": "rooms\\room_game\\room_game.yy",
+                "resourcePath": "rooms\\room_town1\\room_town1.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -287,14 +279,6 @@
             }
         },
         {
-            "Key": "63742689-f66f-4f02-956a-4725433118a9",
-            "Value": {
-                "id": "c23ce8e7-128b-45ba-85d1-923011aa499c",
-                "resourcePath": "objects\\obj_ctrl_map2\\obj_ctrl_map2.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "6400892b-7bce-44ca-bd8d-ddf3e4440ae0",
             "Value": {
                 "id": "a4cad045-6a27-4805-887d-3e383a859771",
@@ -308,14 +292,6 @@
                 "id": "db5ae642-6b93-4837-bff3-ad9d50f45a17",
                 "resourcePath": "scripts\\scr_test\\scr_test.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "66dfeaeb-d8c3-493c-bb56-32ad2d2c9548",
-            "Value": {
-                "id": "20051c1f-473c-42eb-b9c1-19370c47297a",
-                "resourcePath": "objects\\obj_map_town2\\obj_map_town2.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -356,14 +332,6 @@
                 "id": "f1a60966-7548-42ac-8d16-4bf726d9de08",
                 "resourcePath": "sprites\\spr_player_flee_left\\spr_player_flee_left.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "6f37bf5c-2f0e-416a-9fd9-514620d378ee",
-            "Value": {
-                "id": "21f0d222-9739-4241-8e95-80b5bf826ea4",
-                "resourcePath": "objects\\obj_map_track\\obj_map_track.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -444,6 +412,14 @@
                 "id": "4f6412a0-16ae-4055-a2ad-670366127d7a",
                 "resourcePath": "sprites\\spr_player_flee_back\\spr_player_flee_back.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "954f07ba-6088-487b-8428-23856ddc0bd5",
+            "Value": {
+                "id": "427396ac-9162-4e7f-a610-4c1d00f1998b",
+                "resourcePath": "rooms\\room_town2\\room_town2.yy",
+                "resourceType": "GMRoom"
             }
         },
         {

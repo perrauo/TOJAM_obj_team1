@@ -117,12 +117,14 @@ switch (mode)
 		if (dis < 32)
 		{
 			my_spd = 0;
+			angry_timer = min(max_angry_time,angry_timer+1);
 			direction = point_direction(x,y,obj_player.x,obj_player.y);
 		}
 		
 		else if (dis < 256)
 		{
 			my_spd = 3;
+			angry_timer = min(max_angry_time,angry_timer+1);
 			direction = point_direction(x,y,obj_player.x,obj_player.y);
 		}
 
@@ -130,6 +132,13 @@ switch (mode)
 		{
 			direction += random_range(-5,5);
 			my_spd = 1;
+			angry_timer--;
+			
+			if (angry_timer <= 0)
+			{
+				mode = markMode.idle;
+				obj_town.num_angry--;
+			}
 		}
 		
 		break;

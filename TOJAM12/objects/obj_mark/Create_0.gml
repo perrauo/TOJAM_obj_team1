@@ -6,6 +6,8 @@ mode = 0;
 my_spd = 0.5;
 buy_timer = 0;
 max_buy_time = 60;
+angry_timer = 0;
+max_angry_time = 540;
 my_path = path_add();
 
 tar_x = 0;

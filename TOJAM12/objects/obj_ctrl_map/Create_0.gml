@@ -4,7 +4,7 @@ randomize();
 
 // create towns
 
-global.numb_towns = 7;
+global.numb_towns = 2;
 min_dist = 128;
 unvisited_list = ds_list_create();
 
@@ -50,8 +50,12 @@ for (var i=0; i<global.numb_towns; i++)
 	
 	if (!done)
 	{
-		xx = (room_width/2 + dcos(360/global.numb_towns*i+irandom_range(-5,5)) * 256 + irandom_range(-32,32)) div 64 * 64+32;
-		yy = (room_height/2 + dsin(360/global.numb_towns*i+irandom_range(-5,5)) * 256 + irandom_range(-32,32)) div 64 * 64+32;
+		xx = (room_width/2 + dcos(360/global.numb_towns*i+irandom_range(-5,5)) *
+			 256 + irandom_range(-32,32) +
+			 (room_width/2-256-128) * dcos(360/global.numb_towns*i)) div 64 * 64+32;
+		
+		yy = (room_height/2 + dsin(360/global.numb_towns*i+irandom_range(-5,5)) * 
+		     256 + irandom_range(-32,32)) div 64 * 64+32;
 	
 		if (!collision_circle(xx,yy,min_dist,obj_map_town,false,true))
 		{
@@ -122,6 +126,6 @@ my_train = instance_create_depth(0,0,-100,obj_map_train);
 
 with (my_train)
 {
-	path_start(other.track_path[cur_path],4,0,1)
+	path_start(other.track_path[global.dest_city],0,0,1)
 }
 mp_grid_destroy(map_grid);
