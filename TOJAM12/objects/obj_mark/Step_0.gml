@@ -96,7 +96,7 @@ switch (mode)
 		{
 			with (my_house)
 			{
-				ds_queue_enqueue(occupants,global.cur_step+420);
+				ds_queue_enqueue(occupants,global.cur_step+300);
 			}
 			instance_destroy();
 		}
@@ -120,7 +120,7 @@ switch (mode)
 		{
 			my_spd = 0;
 			angry_timer = min(max_angry_time,angry_timer+1);
-			global.dignity -= 1/30;
+			global.dignity -= 1/15;
 			direction = point_direction(x,y,obj_player.x,obj_player.y);
 		}
 		

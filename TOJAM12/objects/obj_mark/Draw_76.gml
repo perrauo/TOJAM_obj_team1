@@ -16,7 +16,9 @@ switch (facing)
 				sprite_index = spr_mark_walk_angry_right;
 		}
 		else
+		{
 			sprite_index = spr_mark_walk_right;
+		}
 		break;
 	}
 	

@@ -607,6 +607,14 @@
             }
         },
         {
+            "Key": "80cd773f-4c95-4b9b-a4b9-70212db0b3d7",
+            "Value": {
+                "id": "d99cae6c-c2e8-4fd9-8b4e-57ebc3ebabe2",
+                "resourcePath": "views\\80cd773f-4c95-4b9b-a4b9-70212db0b3d7.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "8242ced9-aad8-414f-88d5-66f8033ca9fe",
             "Value": {
                 "id": "e6277fcc-b99a-46fb-bbf0-f207ade678b5",
@@ -999,6 +1007,14 @@
             }
         },
         {
+            "Key": "cf60e405-0ad7-4a24-9126-28a7309f68d7",
+            "Value": {
+                "id": "4deeeb4c-f879-49dc-9aa4-e9aa03df4984",
+                "resourcePath": "sprites\\spr_mark_shirt_1\\spr_mark_shirt_1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d003eb1f-453e-4ae3-a34c-51f2a230f97e",
             "Value": {
                 "id": "f3b5d044-0ad2-4ed5-9767-b563c8195c16",
@@ -1115,6 +1131,14 @@
             "Value": {
                 "id": "4badb485-220f-4b16-bc91-0e02d920a8c7",
                 "resourcePath": "views\\f16f502a-f5bb-4c52-b9f2-658bb3e6ac66.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f2943540-4922-4636-93c2-69cd48db4bc2",
+            "Value": {
+                "id": "7bfc431e-6cef-4b69-826e-7e35d115a090",
+                "resourcePath": "views\\f2943540-4922-4636-93c2-69cd48db4bc2.yy",
                 "resourceType": "GMFolder"
             }
         },

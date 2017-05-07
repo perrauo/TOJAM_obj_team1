@@ -53,3 +53,5 @@ while (count < num_houses)
 }
 
 mp_grid_add_instances(global.town_grid,obj_house,false);
+
+alarm[0] = 120;

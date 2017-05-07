@@ -16,3 +16,6 @@ tar_y = 0;
 local_tar_x = 0;
 local_tar_y = 0;
 path_point_index = 0;
+
+shirt_spr = -1;
+shirt_index = 1;
