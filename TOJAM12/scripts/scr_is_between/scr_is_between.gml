@@ -6,4 +6,4 @@ var b = argument2;
 var left = min(a,b);
 var right = max(a,b);
 
-return (left < xx && xx < right)
+return (left <= xx && xx <= right)
