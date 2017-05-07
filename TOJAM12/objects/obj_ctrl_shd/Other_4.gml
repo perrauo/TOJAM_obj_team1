@@ -3,7 +3,7 @@
 
 
 //Game surfaces (TODO update when screen is resized)
-surface_screen1 = surface_create(view_get_wport(view_current), view_get_hport(view_current));
+surface_resize(surface_screen1, room_width, room_height);
 
 //transition in
 //save curr time
