@@ -28,3 +28,16 @@ for(i = 1; i<10; i++)
 }
 
 
+
+if(gameover)
+{
+	w = c_white;
+	b = c_black;
+
+	var font = fnt_title;
+	draw_set_font(font);
+	draw_text_color(room_width/3 , 50, "GAME OVER",w,w,w,w,1);
+
+
+}
+

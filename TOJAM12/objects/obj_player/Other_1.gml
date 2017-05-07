@@ -19,3 +19,10 @@ if (leave_timer > 60)
 	leave_timer = 0;
 	room_goto(room_map);
 }*/
+
+
+//transition to the map if reaches the border
+var map = asset_get_index("room_map");
+room_goto(map);
+
+

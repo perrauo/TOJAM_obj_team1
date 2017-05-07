@@ -9,10 +9,23 @@
 
 draw_surface(application_surface,0,0); //draw application surface;
 
-
-if(toggle_shd_transition)
-shader_set(toggle_shd_transition)
+if(toggle_shd_transition_in)
+shader_set(shd_transition_in)
 draw_surface(surface_screen1,0,0); //draw screen overlay
 //reset shaders so that they dot get applied elsewhere
 shader_reset();
+
+if(toggle_shd_transition_out)
+shader_set(shd_transition_out)
+draw_surface(surface_screen1,0,0); //draw screen overlay
+//reset shaders so that they dot get applied elsewhere
+shader_reset();
+
+if(toggle_shd_approach_bord)
+shader_set(shd_approach_bord)
+draw_surface(surface_screen1,0,0); //draw screen overlay
+//reset shaders so that they dot get applied elsewhere
+shader_reset();
+
+
 

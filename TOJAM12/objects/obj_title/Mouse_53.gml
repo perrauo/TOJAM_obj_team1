@@ -1,3 +1,3 @@
 /// @description Insert description here
 
-room_goto(room_town1);
+//room_goto(room_town1);

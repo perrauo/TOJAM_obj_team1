@@ -1,27 +1,12 @@
 /// @description init leaderboard UI
 // You can write your code in this editor
 
-//clear leaderboard
-//TODO remove
-highscore_clear();
+gameover = false;//flag true if game over
 
-
-leaderboard_posx = x+ 20;
-leaderboard_posy = y- 200;
+leaderboard_posx = x;
+leaderboard_posy = y;
 
 offset_y_size = 40;
-
-////add score if it exists
-//if variable_global_exists("money") && variable_global_exists("player_name") 
-//{
-//	highscore_add(global.player_name, global.money);
-//}
-
-highscore_add("Jo", 15.00);
-highscore_add("Bob", 3.00);
-highscore_add("Smith", 2.00);
-highscore_add("Harry", 19.00);
-
 
 var i;
 i = 10;

@@ -12,5 +12,5 @@ if(mouse_check_button_pressed(mb_any))
 	instance_deactivate_all(false);
 	
 	//instance create leaderboard
-	instance_create_depth(x,y,-400, obj_leaderboard_UI);	
+	instance_create_depth(room_width/3,room_height/3,-400, obj_leaderboard_UI);	
 }

@@ -3,8 +3,8 @@
 
 //clear leaderboard
 //TODO remove
-posx = 100;
-posy = 250;
+posx = x;
+posy = y;
 
 offset_y_size = 40;
 
