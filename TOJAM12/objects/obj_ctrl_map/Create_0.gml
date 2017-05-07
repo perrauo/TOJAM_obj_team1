@@ -4,7 +4,6 @@ randomize();
 
 // create towns
 
-global.numb_towns = 2;
 min_dist = 128;
 unvisited_list = ds_list_create();
 
@@ -50,11 +49,11 @@ for (var i=0; i<global.numb_towns; i++)
 	
 	if (!done)
 	{
-		xx = (room_width/2 + dcos(360/global.numb_towns*i+irandom_range(-5,5)) *
+		xx = (room_width/2 + dcos(360/global.numb_towns*i+irandom_range(-5,5)+20) *
 			 256 + irandom_range(-32,32) +
-			 (room_width/2-256-128) * dcos(360/global.numb_towns*i)) div 64 * 64+32;
+			 (room_width/2-256-128) * dcos(360/global.numb_towns*i)+20) div 64 * 64+32;
 		
-		yy = (room_height/2 + dsin(360/global.numb_towns*i+irandom_range(-5,5)) * 
+		yy = (room_height/2 + dsin(360/global.numb_towns*i+irandom_range(-5,5)+20) * 
 		     256 + irandom_range(-32,32)) div 64 * 64+32;
 	
 		if (!collision_circle(xx,yy,min_dist,obj_map_town,false,true))

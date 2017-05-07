@@ -14,10 +14,10 @@ if(mouse_check_button_pressed(mb_any))
 		{
 			if (dir == 1)
 			{
+				cur_path = (global.dest_city+0+global.numb_towns) mod global.numb_towns;
 				global.dest_city = other.my_path_index;
 				can_command = false;
-				cur_path = (cur_path+1+global.numb_towns) mod global.numb_towns;
-				path_start(obj_ctrl_map.track_path[cur_path],4,path_action_stop,true);
+				path_start(obj_ctrl_map.track_path[cur_path],8,path_action_stop,true);
 			}
 		}
 	}

@@ -1,4 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-global.anger_level[0] = num_angry / num_people;
+for (var i=0; i<global.numb_towns; i++)
+{
+	if (i == global.dest_city)
+		global.anger_level[global.dest_city] = num_angry / num_people;
+		
+	else
+		global.anger_level[i] = max(global.anger_level[i]-1/18000,0);
+}

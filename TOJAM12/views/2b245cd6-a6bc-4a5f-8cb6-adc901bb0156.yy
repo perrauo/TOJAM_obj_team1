@@ -16,7 +16,11 @@
         "35f0fed7-b18b-44ae-82fa-b2c664c1da46",
         "c49df294-890c-4109-8a95-298a2a0b6455",
         "a3569da6-3cfa-4a5e-a933-438f0a8b1f03",
-        "9795371a-31ce-4842-933b-bb7224b76e4b"
+        "9795371a-31ce-4842-933b-bb7224b76e4b",
+        "b7470335-a137-4133-96d7-2e318a012f91",
+        "6ca9c74c-740c-4048-9946-c9e06204e336",
+        "079e2cc5-3fb3-44ed-8b4c-61a9636017db",
+        "d7c28b7d-edaa-4653-a9ec-a5ba9f66009f"
     ],
     "filterType": "GMSprite",
     "folderName": "Marks",

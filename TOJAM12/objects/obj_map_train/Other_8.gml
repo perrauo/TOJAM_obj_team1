@@ -8,7 +8,7 @@ if (dir == 1)
 			cur_path = 0;
 		else
 			cur_path++;
-		path_start(obj_ctrl_map.track_path[cur_path],4,0,1);
+		path_start(obj_ctrl_map.track_path[cur_path],8,0,1);
 	}
 	
 	else
@@ -18,7 +18,7 @@ if (dir == 1)
 			case 0:
 				room_goto(room_town1);
 				break;
-			case 1:
+			default:
 				room_goto(room_town2);
 				break;
 		}

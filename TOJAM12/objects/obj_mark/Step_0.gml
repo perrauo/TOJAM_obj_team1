@@ -64,6 +64,7 @@ switch (mode)
 				mode = markMode.sold;
 				buy_timer = 0;
 				global.money += 0.1;
+				global.dignity = min(global.dignity+1,100);
 				//direction = point_direction(obj_player.x,obj_player.y,x,y);
 				
 				var num_houses = instance_number(obj_house);
@@ -118,6 +119,7 @@ switch (mode)
 		{
 			my_spd = 0;
 			angry_timer = min(max_angry_time,angry_timer+1);
+			global.dignity -= 1/30;
 			direction = point_direction(x,y,obj_player.x,obj_player.y);
 		}
 		

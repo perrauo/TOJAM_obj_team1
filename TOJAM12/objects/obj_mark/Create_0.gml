@@ -9,6 +9,7 @@ max_buy_time = 60;
 angry_timer = 0;
 max_angry_time = 540;
 my_path = path_add();
+torch_guy = choose(true,false);
 
 tar_x = 0;
 tar_y = 0;
