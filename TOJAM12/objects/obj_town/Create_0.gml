@@ -19,6 +19,21 @@ for (var i=0; i<tilemap_width; i++)
 	}
 }
 
+grass_layer = layer_create(98,"Grass");
+tilemap_width = room_width div 16 + 1;
+tilemap_height = room_height div 16 + 1;
+grass_map = layer_tilemap_create(grass_layer,0,0,ts_grass,tilemap_width, tilemap_height);
+
+repeat (200)
+{
+	var xx = irandom(tilemap_width);
+	var yy = irandom(tilemap_height);
+	
+	var cur_tile = tilemap_get(grass_map,xx,yy);
+	cur_tile = tile_set_index(cur_tile,choose(1,2,3));
+	tilemap_set(grass_map,cur_tile,xx,yy);
+}
+
 num_houses = 20;
 num_people = 50;
 num_angry = 0;

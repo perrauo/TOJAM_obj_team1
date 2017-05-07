@@ -5,6 +5,9 @@ application_surface_draw_enable(true) //turn back on application_surface_draw
 
 	highscore_add(global.player_name, global.money);
 		
-	var ind = asset_get_index("room_menu");
+	/*var ind = asset_get_index("room_menu");
 	room_instance_add(ind, room_width/3, 0+100, obj_gameover);
-	room_goto(ind);
+	room_goto(ind);*/
+	
+	global.gameover = true;
+	room_goto(room_leaderboard);

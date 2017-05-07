@@ -9,8 +9,11 @@ if(mouse_check_button_pressed(mb_any))
 	pulse_size = .5;
 
 	//deactivate everything
-	instance_deactivate_all(false);
+	//instance_deactivate_all(false);
+	//instance_activate_object(obj_MCP);
 	
 	//instance create leaderboard
-	instance_create_depth(room_width/3,room_height/3,-400, obj_leaderboard_UI);	
+	//instance_create_depth(room_width/3,room_height/3,-400, obj_leaderboard_UI);	
+	
+	room_goto(room_leaderboard);
 }

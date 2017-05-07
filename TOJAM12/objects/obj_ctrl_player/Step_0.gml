@@ -7,7 +7,7 @@ if(global.dignity <= 0) || (keyboard_check_pressed(ord("Z")))
 	//if alarm not set set it (at that point well initiate transition)
 		if(alarm_get(0) == -1)
 		{ 
-				alarm_set(0,300);
+				alarm_set(0,1);
 		}
 		
 		if(!instance_exists(obj_dropping_gameover))

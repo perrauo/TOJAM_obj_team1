@@ -10,6 +10,7 @@ if(mouse_check_button_pressed(mb_any))
 
 	//deactivate everything
 	instance_deactivate_all(false);
+	instance_activate_object(obj_MCP);
 	
 	//instance create leaderboard
 	instance_create_depth(room_width/3,room_height/3,-400, obj_howTo_UI);	

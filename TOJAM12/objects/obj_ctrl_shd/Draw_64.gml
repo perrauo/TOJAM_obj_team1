@@ -7,7 +7,7 @@
 //shader_set(shd_...) e.g changes position of pixels
 //...
 
-draw_surface(application_surface,0,0); //draw application surface;
+//draw_surface_stretched(application_surface,0,0,view_get_wport(view_current),view_get_hport(view_current)); //draw application surface;
 
 if(toggle_shd_transition_in)
 shader_set(shd_transition_in)

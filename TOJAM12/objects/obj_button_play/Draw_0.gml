@@ -4,7 +4,7 @@
 w = c_white;
 font= fnt_title;
 
-btn_txt = "play";
+btn_txt = "Play";
 
 //update tb width based on text size
 box_width = string_length(btn_txt)* box_width_mult;

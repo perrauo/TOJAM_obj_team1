@@ -1,7 +1,7 @@
 /// @description init leaderboard UI
 // You can write your code in this editor
 
-gameover = false;//flag true if game over
+//gameover = false;//flag true if game over
 
 leaderboard_posx = x;
 leaderboard_posy = y;

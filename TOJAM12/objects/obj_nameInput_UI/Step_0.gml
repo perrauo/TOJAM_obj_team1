@@ -15,7 +15,7 @@
     }
 
 	
-	if keyboard_key == vk_backspace
+	if keyboard_check_pressed(vk_backspace)
 	{
 		var last_ltr = string_length(input_text);
 		input_text = string_delete(input_text, last_ltr, 1)

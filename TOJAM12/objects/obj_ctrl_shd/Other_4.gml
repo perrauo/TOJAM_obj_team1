@@ -3,7 +3,7 @@
 
 
 //Game surfaces (TODO update when screen is resized)
-surface_resize(surface_screen1, room_width, room_height);
+//surface_resize(surface_screen1, room_width, room_height);
 
 //transition in
 //save curr time

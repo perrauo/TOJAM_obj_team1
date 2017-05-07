@@ -22,4 +22,5 @@ if(mouse_check_button_pressed(mb_any))
 	
 	//instance create leaderboard
 	instance_activate_all();
+	room_goto(room_menu);
 }

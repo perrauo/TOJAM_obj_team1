@@ -25,3 +25,5 @@ caret_alpha = 1;
 //timers (caret blink speed)
 timer1 = 0;
 lim1 = 360;
+
+keyboard_lastkey = -1;

@@ -22,6 +22,19 @@ if (leave_timer > 60)
 
 
 //transition to the map if reaches the border
+with (obj_house)
+{
+	obj_town.num_angry += ds_queue_size(occupants);
+}
+
+with (obj_mark)
+{
+	if (mode == markMode.sold)
+		obj_town.num_angry++;
+}
+
+global.anger_level[global.dest_city] = obj_town.num_angry / obj_town.num_people;
+	
 var map = asset_get_index("room_map");
 room_goto(map);
 

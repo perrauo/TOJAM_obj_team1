@@ -3,7 +3,7 @@
 
 var font = fnt_title;
 draw_set_font(font);
-draw_text(posx , posy-80, "ENTER YOUR NAME");
+draw_text(posx , posy-80, "WHAT ARE YOU SELLING?");
 
 w = c_white;
 b = c_black;

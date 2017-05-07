@@ -33,7 +33,7 @@ for(i = 1; i<10; i++)
 
 
 
-if(gameover)
+if(global.gameover)
 {
 	w = c_white;
 	b = c_black;
