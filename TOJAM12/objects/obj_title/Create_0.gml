@@ -3,19 +3,21 @@
 randomize();
 
 timer1 = 0;
-lim1 = 480;
+lim1 = 6000;
 
 //if not initiated
 if(highscore_name(1)== "<nobody>")
 {
-	highscore_add("CLARK", 15.00);
-	highscore_add("BOB", 3.00);
-	highscore_add("SMITH", 2.00);
-	highscore_add("LUIGI", 30.00);
-	highscore_add("PANDA", 193.00);
-	highscore_add("HARRY", 12.00);
-	highscore_add("TOBI", 25.00);
-	highscore_add("DING", 29.00);
-	highscore_add("MIKE", 23.00);
-	highscore_add("HARPER", 2.00);
+
+highscore_add("NIMSTRING", 15.00);
+highscore_add("PLUMBUS", 34.00);
+highscore_add("DINGLEBOP", 32.00);
+highscore_add("WONDERCRAP", 230.00);
+highscore_add("MCFLURX", 93.00);
+highscore_add("BLAMFS", 12.00);
+highscore_add("TOFU", 25.00);
+highscore_add("BAGEL", 29.00);
+highscore_add("RADIOSHARK", 23.00);
+highscore_add("HIPPIETOY", 67.00);
+	
 }

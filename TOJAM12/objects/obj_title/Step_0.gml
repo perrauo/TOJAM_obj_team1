@@ -1,7 +1,7 @@
 /// @description Insert description here
 
 	//timers update
-	/*if(timer1 >= lim1)
+	if(timer1 >= lim1)
 	{
 		timer1 = 0;
 		
@@ -11,4 +11,4 @@
 		exit;//exit event
 				
 	}
-	timer1 += delta_time/1000;*/
+	timer1 += delta_time/1000;

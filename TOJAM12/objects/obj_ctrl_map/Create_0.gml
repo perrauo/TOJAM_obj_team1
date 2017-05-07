@@ -17,11 +17,18 @@ ds_list_add(town_names,"Jamescorn");
 ds_list_add(town_names,"Minesweep");
 ds_list_add(town_names,"Montrebble");
 ds_list_add(town_names,"Russlebrown")
-ds_list_add(town_names,"Ordinarycity");
+ds_list_add(town_names,"Ordinary City");
 ds_list_add(town_names,"Goatharbour");
 ds_list_add(town_names,"Herbsandcheese");
 ds_list_add(town_names,"Beeflocks");
-ds_list_add(town_names,"Indeputy");
+ds_list_add(town_names,"St-Marisondick");
+ds_list_add(town_names,"Totonto");
+ds_list_add(town_names,"Bleaklake City");
+ds_list_add(town_names,"Portrubbunder");
+ds_list_add(town_names,"Portmanteous");
+ds_list_add(town_names,"Trolland");
+ds_list_add(town_names,"Mount-Dimsum");
+
 
 ds_list_shuffle(town_names);
 
