@@ -22,6 +22,9 @@ if (dir == 1)
 				room_goto(room_town2);
 				break;
 		}
+		audio_stop_sound(snd_train);
+		audio_stop_sound(snd_whistle1);
+		audio_stop_sound(snd_whistle2);
 	}
 }
 

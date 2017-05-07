@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "1f0f2810-e077-48f7-b144-6d3109d4584d",
+            "Value": {
+                "id": "33a5f553-63e1-4d6b-bb35-fde631921488",
+                "resourcePath": "sprites\\spr_mark_shirt_1_right\\spr_mark_shirt_1_right.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "20353bbe-f436-459f-b22c-af6e851cd4e2",
             "Value": {
                 "id": "d3461661-1474-4c0f-a15c-49ea644a5aed",
@@ -236,6 +244,14 @@
                 "id": "14b70555-c60c-44a7-8e38-3f74ca815469",
                 "resourcePath": "views\\2d406651-58d0-4976-88e0-5f1cfaa17c49.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2db9a0b6-1664-4def-9780-8f0fb33132ff",
+            "Value": {
+                "id": "c5d335a1-99bf-4242-900c-0c2aa9b60a9b",
+                "resourcePath": "sounds\\snd_whistle1\\snd_whistle1.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -367,6 +383,14 @@
             }
         },
         {
+            "Key": "40e7d2d0-5beb-4c5c-9e65-d931c187bc2b",
+            "Value": {
+                "id": "2a7073c8-fc1b-4800-9bd1-8d5ec49537d9",
+                "resourcePath": "sprites\\spr_mark_shirt_2_back\\spr_mark_shirt_2_back.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "416e5212-3f33-486a-84f2-a88719fb4212",
             "Value": {
                 "id": "eeed30f5-da02-42a6-b12e-528518b0f875",
@@ -396,6 +420,14 @@
                 "id": "706ae404-d04b-41ba-94fa-a39f1f8fe3e3",
                 "resourcePath": "objects\\obj_howTo_UI\\obj_howTo_UI.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4dfca2df-fabc-45b0-be53-6bc7125ac212",
+            "Value": {
+                "id": "3315d665-99c1-4944-b554-754e14e96e70",
+                "resourcePath": "sprites\\spr_mark_shirt_1_left\\spr_mark_shirt_1_left.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -495,6 +527,14 @@
             }
         },
         {
+            "Key": "6a2eff7a-57b8-47cc-abf5-7f2b71fb2032",
+            "Value": {
+                "id": "101f7454-9b6e-4346-b1ba-bc75c6061b86",
+                "resourcePath": "sounds\\snd_train\\snd_train.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "6a594875-00f0-438f-8e2a-fb30d39dc630",
             "Value": {
                 "id": "424a2e38-4abb-4b3a-be24-cfaeefc1fca3",
@@ -588,6 +628,14 @@
                 "id": "5408a575-b4c3-4002-97a9-9d56f9706e9c",
                 "resourcePath": "objects\\obj_mark\\obj_mark.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7af302b4-19fb-49e7-8018-a1edf4a28e5a",
+            "Value": {
+                "id": "a455d59e-b51c-4de0-8012-e1f5084f02d8",
+                "resourcePath": "sounds\\snd_whistle2\\snd_whistle2.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -724,6 +772,14 @@
                 "id": "169a2510-bdc1-4edb-98ae-2312f4065d68",
                 "resourcePath": "sounds\\snd_cow1\\snd_cow1.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "97878db1-495d-4bd7-8563-a25690c544c7",
+            "Value": {
+                "id": "7b86aab8-adbe-4c5e-92f4-5908e9a92112",
+                "resourcePath": "sprites\\spr_mark_shirt_2_left\\spr_mark_shirt_2_left.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -911,10 +967,26 @@
             }
         },
         {
+            "Key": "b8367d07-cb73-4fec-98b0-9e55fa53dae5",
+            "Value": {
+                "id": "821e540d-c045-4ba3-a498-8899a063dea1",
+                "resourcePath": "sprites\\spr_mark_shirt_2_right\\spr_mark_shirt_2_right.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bb853fe9-fc84-4c6a-be7d-bd99f05bf1fe",
             "Value": {
                 "id": "59a8861f-62f2-4ac6-bae7-0a42dd68d7de",
                 "resourcePath": "sprites\\spr_player_packup\\spr_player_packup.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bbdbad6b-395d-44d1-9124-eef6cf159459",
+            "Value": {
+                "id": "fdeeba96-4d72-4e87-8f53-d3a9d5c95c1b",
+                "resourcePath": "sprites\\spr_mark_shirt_1_front\\spr_mark_shirt_1_front.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1018,7 +1090,7 @@
             "Key": "cf60e405-0ad7-4a24-9126-28a7309f68d7",
             "Value": {
                 "id": "4deeeb4c-f879-49dc-9aa4-e9aa03df4984",
-                "resourcePath": "sprites\\spr_mark_shirt_1\\spr_mark_shirt_1.yy",
+                "resourcePath": "sprites\\spr_mark_shirt_1_back\\spr_mark_shirt_1_back.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1035,6 +1107,14 @@
             "Value": {
                 "id": "b181c349-c6b0-48bf-bff6-30e191e72373",
                 "resourcePath": "sprites\\spr_mark_walk_right\\spr_mark_walk_right.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d05489a1-f172-4ee7-b363-a598aa2cd9a1",
+            "Value": {
+                "id": "27db3106-344c-4185-9258-b9a9bd4d8689",
+                "resourcePath": "sprites\\spr_mark_shirt_2_front\\spr_mark_shirt_2_front.yy",
                 "resourceType": "GMSprite"
             }
         },

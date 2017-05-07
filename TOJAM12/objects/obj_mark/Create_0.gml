@@ -18,4 +18,15 @@ local_tar_y = 0;
 path_point_index = 0;
 
 shirt_spr = -1;
-shirt_index = 1;
+shirt_index = choose(0,1,2);
+
+hat_index = -1;
+hat_spr = -1;
+
+kerchief_index = -1;
+kerchief_spr = -1;
+
+face_spr = -1;
+
+item_spr = -1;
+item_index = -1;

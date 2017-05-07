@@ -18,6 +18,8 @@ if(mouse_check_button_pressed(mb_any))
 				global.dest_city = other.my_path_index;
 				can_command = false;
 				path_start(obj_ctrl_map.track_path[cur_path],8,path_action_stop,true);
+				audio_play_sound(snd_train,50,true);
+				audio_play_sound(choose(snd_whistle1,snd_whistle2),50,false);
 			}
 		}
 	}
