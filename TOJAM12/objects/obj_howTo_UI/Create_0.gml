@@ -1,11 +1,6 @@
 /// @description init leaderboard UI
 // You can write your code in this editor
 
-//clear leaderboard
-//TODO remove
-highscore_clear();
-
-
 posx = 100;
 posy = 250;
 

@@ -25,6 +25,8 @@ if (dir == 1)
 		audio_stop_sound(snd_train);
 		audio_stop_sound(snd_whistle1);
 		audio_stop_sound(snd_whistle2);
+		
+		global.cur_town = obj_ctrl_map.unvisited_list[| (cur_path+1+global.numb_towns) mod global.numb_towns].town_name;
 	}
 }
 

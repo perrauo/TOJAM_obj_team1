@@ -1,8 +1,6 @@
 /// @description Insert description here
 
-if (mode <> playerMode.packup ||
-	mode <> playerMode.selling ||
-	mode <> playerMode.setup)
+if (mode == playerMode.idle)
 {
 	var dir = point_direction(other.x,other.y,x,y);
 	var push_pow = max(0.2,my_spd/2);

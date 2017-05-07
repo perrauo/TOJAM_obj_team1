@@ -2,7 +2,7 @@
 
 
 
-
+global.cur_town = "";
 global.cur_step = 0;
 global.money = 0;
 global.player_name = "";
