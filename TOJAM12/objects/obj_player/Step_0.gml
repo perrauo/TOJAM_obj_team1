@@ -1,4 +1,4 @@
-/// @description transition
+/// @description transition outside, movement particles
 // You can write your code in this editor
 
 
@@ -42,3 +42,9 @@ obj_ctrl_shd.toggle_shd_approach_bord = true;
 }
 else
 obj_ctrl_shd.toggle_shd_approach_bord = false;
+
+
+if(is_moving)//emit dust particles if moving
+{
+	event_user(0);
+}
