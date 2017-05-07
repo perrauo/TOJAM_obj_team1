@@ -1,6 +1,10 @@
 /// @description draw highscore
 // You can write your code in this editor
 
+//GM built i highscore system truncates real into integers
+//therefore the decimal part of the player's score is ignored
+
+
 var font = fnt_title;
 draw_set_font(font);
 draw_text(leaderboard_posx , leaderboard_posy-80, "LEADERBOARD");
@@ -15,7 +19,7 @@ for(i = 1; i<10; i++)
 {	
 	draw_text(leaderboard_posx , leaderboard_posy + offset_y, string(players[i]));
 			
-	draw_text(leaderboard_posx+ offset_x , leaderboard_posy + offset_y, string(scores[i]));
+	draw_text(leaderboard_posx+ offset_x , leaderboard_posy + offset_y," $" +string(scores[i])+".00" );
 		
 	//draw dotted line
 	var beg_pos = string_length(string(players[i]))*15;

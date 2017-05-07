@@ -12,7 +12,7 @@ for (var i=0; i<global.numb_towns; i++)
 display_set_gui_size(1280,720);
 
 
-//if not initiated		//TODO FIX
+//if not initiated
 if(highscore_name(1)== "Unknown")
 {
 	highscore_add("CLARK", 15.00);

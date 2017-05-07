@@ -12,6 +12,8 @@ var i;
 i = 10;
 repeat(10)
 {
+	
+
    scores[i] = highscore_value(i);
    players[i] = highscore_name(i);
          
