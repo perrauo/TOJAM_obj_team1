@@ -1255,6 +1255,14 @@
             }
         },
         {
+            "Key": "f90a7f4c-5aca-4bfa-99df-5a27db8c4a99",
+            "Value": {
+                "id": "093a7b4c-934f-44e6-81eb-1f06c1fc8466",
+                "resourcePath": "sprites\\bck_gameover\\bck_gameover.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "fc320508-b07d-4e03-bf1c-09e3a06f14dc",
             "Value": {
                 "id": "0b25b229-158b-4881-83ab-6fa19820f9f7",

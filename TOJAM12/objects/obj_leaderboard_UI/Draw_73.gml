@@ -7,7 +7,7 @@
 
 var font = fnt_title;
 draw_set_font(font);
-draw_text(leaderboard_posx , leaderboard_posy-80, "LEADERBOARD");
+draw_text(leaderboard_posx , leaderboard_posy-80, "TOP SELLING CRAP");
 
 font = fnt_leaderboard;
 draw_set_font(font);
