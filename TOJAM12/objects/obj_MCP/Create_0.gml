@@ -2,5 +2,8 @@
 
 global.cur_step = 0;
 global.money = 0;
-global.anger_level = 0;
+global.anger_level[0] = 0;
+global.anger_level[1] = 0;
 global.dest_city = 0;
+
+display_set_gui_size(1280,720);

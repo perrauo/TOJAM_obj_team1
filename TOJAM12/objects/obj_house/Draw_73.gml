@@ -8,8 +8,8 @@ var occ = ds_queue_size(occupants);
 
 if (occ > 0)
 {
-	draw_set_font(fnt_hotel_number);
-	draw_set_halign(fa_center);
-	draw_set_valign(fa_center);
-	draw_text(x+48,y-64,string(occ));
+	for (var i=0; i<occ; i++)
+	{
+		draw_sprite(spr_counter,0,x+i*16+(96-16*(occ-1))/2,y-64);
+	}
 }

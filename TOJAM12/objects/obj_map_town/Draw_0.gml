@@ -3,10 +3,11 @@
 
 /// @description draw Town
 // You can write your code in this editor
-b = c_black;
-w = c_white;
 
-
-draw_sprite_ext(sprite_index,0,x,y, scale, scale,0,w,1);
-
-draw_text_color(tn_posx,tn_posy,town_name,w,w,w,w, 1);
+draw_sprite_ext(sprite_index,0,x,y, scale, scale,0,c_white,1);
+draw_set_color(c_white);
+draw_set_font(fnt_hotel_number);
+draw_set_halign(fa_left);
+draw_set_valign(fa_top);
+draw_text(tn_posx,tn_posy,town_name);
+draw_text(x,y-64,string(my_path_index));

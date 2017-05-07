@@ -142,7 +142,7 @@
         "Height": 720,
         "Width": 1280,
         "inheritRoomSettings": false,
-        "persistent": true
+        "persistent": false
     },
     "viewSettings": {
         "id": "cd16c667-43d7-4061-bfcf-3aab970a8293",

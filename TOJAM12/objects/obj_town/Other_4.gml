@@ -8,7 +8,7 @@ while (count < num_people)
 {
 	var roll = random(1);
 	
-	if (roll < global.anger_level)
+	if (roll < global.anger_level[0])
 	{
 		if (choose(0,1))
 		{

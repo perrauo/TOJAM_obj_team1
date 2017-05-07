@@ -8,4 +8,4 @@ draw_set_color(c_white);
 draw_set_alpha(1);
 draw_text(16,16,"$" + string(global.money));
 
-draw_text(16,80,"Rage: " + string_format(global.anger_level*100,3,0) + "%");
+draw_text(16,80,"Rage: " + string_format(global.anger_level[0]*100,3,0) + "%");
