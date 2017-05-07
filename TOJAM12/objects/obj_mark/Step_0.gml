@@ -64,7 +64,8 @@ switch (mode)
 				mode = markMode.sold;
 				buy_timer = 0;
 				global.money += 0.1;
-				global.dignity = min(global.dignity+1,100);
+				global.dignity = min(global.dignity+0.5,100);
+				audio_play_sound(choose(snd_register1,snd_register2),25,0);
 				//direction = point_direction(obj_player.x,obj_player.y,x,y);
 				
 				var num_houses = instance_number(obj_house);
