@@ -1,7 +1,5 @@
 /// @description Insert description here
 
-randomize();
-
 // create towns
 
 min_dist = 128;

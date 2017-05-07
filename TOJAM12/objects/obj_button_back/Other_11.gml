@@ -10,7 +10,7 @@ if(mouse_check_button_pressed(mb_any))
 
 	
 	//if game was over and press back: remove condition
-	if(instance_exists(obj_leaderboard_UI))
+	/*if(instance_exists(obj_leaderboard_UI))
 	obj_leaderboard_UI.gameover = true;
 	
 	//destroy leaderboard UI
@@ -21,6 +21,6 @@ if(mouse_check_button_pressed(mb_any))
 	}
 	
 	//instance create leaderboard
-	instance_activate_all();
+	instance_activate_all();*/
 	room_goto(room_menu);
 }

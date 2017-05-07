@@ -551,6 +551,14 @@
             }
         },
         {
+            "Key": "7093dabb-612d-464d-90d7-c1ef4482b803",
+            "Value": {
+                "id": "10cae793-8479-4e6d-8f83-65de1e18b574",
+                "resourcePath": "sounds\\mus_menu\\mus_menu.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "72afb73c-d852-4851-bc38-4a8cff839bfc",
             "Value": {
                 "id": "5e61f2d5-fb9d-4743-8b68-1d84a62c7b6a",
@@ -1163,6 +1171,14 @@
             "Value": {
                 "id": "c9ab8578-141e-4868-9a79-5a411a5895fc",
                 "resourcePath": "sprites\\spr_shadow\\spr_shadow.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fc320508-b07d-4e03-bf1c-09e3a06f14dc",
+            "Value": {
+                "id": "0b25b229-158b-4881-83ab-6fa19820f9f7",
+                "resourcePath": "sprites\\spr_goat\\spr_goat.yy",
                 "resourceType": "GMSprite"
             }
         },

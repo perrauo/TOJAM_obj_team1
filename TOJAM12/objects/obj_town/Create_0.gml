@@ -1,6 +1,5 @@
 /// @description create town
 
-randomize();
 mp_potential_settings(180,5,4,true);
 global.town_grid = mp_grid_create(0,0,room_width div 32 + 1, room_height div 16 + 1,32,16);
 

@@ -9,7 +9,11 @@
 		
 		show_debug_message(rm_index);
 		
+		audio_stop_all();
+		audio_play_sound(mus_main,100,true);
 		room_goto(rm_index); //goto to the room
+		
+
 		
 		exit;//exit event
     }

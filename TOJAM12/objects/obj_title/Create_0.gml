@@ -1,5 +1,7 @@
 /// @description Insert description here
 
+randomize();
+
 timer1 = 0;
 lim1 = 480;
 
