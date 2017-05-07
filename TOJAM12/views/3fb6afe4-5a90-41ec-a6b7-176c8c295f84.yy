@@ -7,7 +7,8 @@
         "0c540e8e-94b2-46c5-94c6-c4f47bb863be",
         "c4aeadf7-d6a1-4c27-8a40-114f0127c495",
         "3c54ce40-762a-4317-874a-92cf1f87ab7f",
-        "8e94e8ef-c320-4fa3-8f21-e1a24d426bf0"
+        "8e94e8ef-c320-4fa3-8f21-e1a24d426bf0",
+        "05d62fad-2a25-47b8-bf1d-bbabd25491b6"
     ],
     "filterType": "GMObject",
     "folderName": "gr_ctrl",
