@@ -20,3 +20,9 @@ draw_set_color(w);
 draw_text_transformed(x, y, btn_txt, scale, scale, 0);
 
 
+draw_set_font(fnt_hotel_number);
+draw_set_halign(fa_right);
+draw_set_valign(fa_bottom);
+draw_set_alpha(1);
+draw_set_color(c_white);
+draw_text(room_width,room_height,"By: obj_team1\nfor TOJam 12");

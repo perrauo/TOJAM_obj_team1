@@ -63,7 +63,7 @@ switch (mode)
 			{
 				mode = markMode.sold;
 				buy_timer = 0;
-				global.money += 0.1;
+				global.money += 1;
 				global.dignity = min(global.dignity+0.5,100);
 				audio_play_sound(choose(snd_register1,snd_register2),25,0);
 				//direction = point_direction(obj_player.x,obj_player.y,x,y);
@@ -120,7 +120,14 @@ switch (mode)
 		{
 			my_spd = 0;
 			angry_timer = min(max_angry_time,angry_timer+1);
-			global.dignity -= 1/15;
+			if (can_punch)
+			{
+				global.dignity--;
+				can_punch = false;
+				alarm[3] = 15;
+				obj_player.alarm[3] = 15;
+				audio_play_sound(snd_punch,50,0);
+			}
 			direction = point_direction(x,y,obj_player.x,obj_player.y);
 		}
 		

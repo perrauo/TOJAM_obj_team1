@@ -2,10 +2,10 @@
 
 draw_sprite(sprite_index,image_index,x,y);
 
-if (shirt_spr <> -1)
+/*if (shirt_spr <> -1)
 {
 	draw_sprite(shirt_spr,image_index,x,y);
-}
+}*/
 
 if (buy_timer > 0)
 {
